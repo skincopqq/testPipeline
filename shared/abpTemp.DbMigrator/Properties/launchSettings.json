@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "abpTemp.DbMigrator": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

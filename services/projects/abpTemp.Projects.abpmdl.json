@@ -1,0 +1,79 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "abpTemp.Projects.Domain.Shared": {
+      "path": "src/abpTemp.Projects.Domain.Shared/abpTemp.Projects.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "abpTemp.Projects.Domain": {
+      "path": "src/abpTemp.Projects.Domain/abpTemp.Projects.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "abpTemp.Projects.Application.Contracts": {
+      "path": "src/abpTemp.Projects.Application.Contracts/abpTemp.Projects.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "abpTemp.Projects.Application": {
+      "path": "src/abpTemp.Projects.Application/abpTemp.Projects.Application.abppkg.json",
+      "folder": "src"
+    },
+    "abpTemp.Projects.EntityFrameworkCore": {
+      "path": "src/abpTemp.Projects.EntityFrameworkCore/abpTemp.Projects.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "abpTemp.Projects.MongoDB": {
+      "path": "src/abpTemp.Projects.MongoDB/abpTemp.Projects.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "abpTemp.Projects.HttpApi": {
+      "path": "src/abpTemp.Projects.HttpApi/abpTemp.Projects.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "abpTemp.Projects.HttpApi.Client": {
+      "path": "src/abpTemp.Projects.HttpApi.Client/abpTemp.Projects.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "abpTemp.Projects.TestBase": {
+      "path": "test/abpTemp.Projects.TestBase/abpTemp.Projects.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "abpTemp.Projects.EntityFrameworkCore.Tests": {
+      "path": "test/abpTemp.Projects.EntityFrameworkCore.Tests/abpTemp.Projects.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "abpTemp.Projects.MongoDB.Tests": {
+      "path": "test/abpTemp.Projects.MongoDB.Tests/abpTemp.Projects.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "abpTemp.Projects.Domain.Tests": {
+      "path": "test/abpTemp.Projects.Domain.Tests/abpTemp.Projects.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "abpTemp.Projects.Application.Tests": {
+      "path": "test/abpTemp.Projects.Application.Tests/abpTemp.Projects.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "abpTemp.Projects.HttpApi.Host": {
+      "path": "host/abpTemp.Projects.HttpApi.Host/abpTemp.Projects.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "abpTemp.Projects.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/abpTemp.Projects.HttpApi.Client.ConsoleTestApp/abpTemp.Projects.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "abpTemp.Projects.IdentityServer": {
+      "path": "host/abpTemp.Projects.IdentityServer/abpTemp.Projects.IdentityServer.abppkg.json",
+      "folder": "host"
+    },
+    "abpTemp.Projects.Host.Shared": {
+      "path": "host/abpTemp.Projects.Host.Shared/abpTemp.Projects.Host.Shared.abppkg.json",
+      "folder": "host"
+    }
+  }
+}

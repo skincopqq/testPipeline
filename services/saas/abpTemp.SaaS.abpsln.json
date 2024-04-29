@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "abpTemp.SaaS": {
+      "path": "abpTemp.SaaS.abpmdl.json"
+    }
+  }
+}

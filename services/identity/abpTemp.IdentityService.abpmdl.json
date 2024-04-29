@@ -1,0 +1,79 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "abpTemp.IdentityService.Domain.Shared": {
+      "path": "src/abpTemp.IdentityService.Domain.Shared/abpTemp.IdentityService.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "abpTemp.IdentityService.Domain": {
+      "path": "src/abpTemp.IdentityService.Domain/abpTemp.IdentityService.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "abpTemp.IdentityService.Application.Contracts": {
+      "path": "src/abpTemp.IdentityService.Application.Contracts/abpTemp.IdentityService.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "abpTemp.IdentityService.Application": {
+      "path": "src/abpTemp.IdentityService.Application/abpTemp.IdentityService.Application.abppkg.json",
+      "folder": "src"
+    },
+    "abpTemp.IdentityService.EntityFrameworkCore": {
+      "path": "src/abpTemp.IdentityService.EntityFrameworkCore/abpTemp.IdentityService.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "abpTemp.IdentityService.MongoDB": {
+      "path": "src/abpTemp.IdentityService.MongoDB/abpTemp.IdentityService.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "abpTemp.IdentityService.HttpApi": {
+      "path": "src/abpTemp.IdentityService.HttpApi/abpTemp.IdentityService.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "abpTemp.IdentityService.HttpApi.Client": {
+      "path": "src/abpTemp.IdentityService.HttpApi.Client/abpTemp.IdentityService.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "abpTemp.IdentityService.TestBase": {
+      "path": "test/abpTemp.IdentityService.TestBase/abpTemp.IdentityService.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "abpTemp.IdentityService.EntityFrameworkCore.Tests": {
+      "path": "test/abpTemp.IdentityService.EntityFrameworkCore.Tests/abpTemp.IdentityService.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "abpTemp.IdentityService.MongoDB.Tests": {
+      "path": "test/abpTemp.IdentityService.MongoDB.Tests/abpTemp.IdentityService.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "abpTemp.IdentityService.Domain.Tests": {
+      "path": "test/abpTemp.IdentityService.Domain.Tests/abpTemp.IdentityService.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "abpTemp.IdentityService.Application.Tests": {
+      "path": "test/abpTemp.IdentityService.Application.Tests/abpTemp.IdentityService.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "abpTemp.IdentityService.HttpApi.Host": {
+      "path": "host/abpTemp.IdentityService.HttpApi.Host/abpTemp.IdentityService.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "abpTemp.IdentityService.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/abpTemp.IdentityService.HttpApi.Client.ConsoleTestApp/abpTemp.IdentityService.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "abpTemp.IdentityService.IdentityServer": {
+      "path": "host/abpTemp.IdentityService.IdentityServer/abpTemp.IdentityService.IdentityServer.abppkg.json",
+      "folder": "host"
+    },
+    "abpTemp.IdentityService.Host.Shared": {
+      "path": "host/abpTemp.IdentityService.Host.Shared/abpTemp.IdentityService.Host.Shared.abppkg.json",
+      "folder": "host"
+    }
+  }
+}

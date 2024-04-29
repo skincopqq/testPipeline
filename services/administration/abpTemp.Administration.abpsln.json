@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "abpTemp.Administration": {
+      "path": "abpTemp.Administration.abpmdl.json"
+    }
+  }
+}

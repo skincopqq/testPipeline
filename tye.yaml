@@ -1,0 +1,37 @@
+name: abptemp
+services:
+- name: abptemp-administration-httpapi-host
+  project: services/administration/host/abpTemp.Administration.HttpApi.Host/abpTemp.Administration.HttpApi.Host.csproj
+  bindings:
+    - protocol: https
+      port: 7001
+# - name: abptemp-identityservice-httpapi-host
+#   project: services/identity/host/abpTemp.IdentityService.HttpApi.Host/abpTemp.IdentityService.HttpApi.Host.csproj
+#   bindings:
+#     - protocol: https
+#       port: 7002
+- name: abptemp-saas-httpapi-host
+  project: services/saas/host/abpTemp.SaaS.HttpApi.Host/abpTemp.SaaS.HttpApi.Host.csproj
+  bindings:
+    - protocol: https
+      port: 7003
+- name: abptemp-auth-server
+  project: apps/abpTemp.AuthServer/abpTemp.AuthServer.csproj
+  bindings:
+    - protocol: https
+      port: 7600
+- name: abptemp-gateway
+  project: gateway/abpTemp.Gateway/abpTemp.Gateway.csproj
+  bindings:
+    - protocol: https
+      port: 7500
+# - name: abptemp-blazor
+#   project: apps/abpTemp.Blazor/abpTemp.Blazor.csproj
+#   bindings:
+#     - protocol: https
+#       port: 5000
+# - name: abptemp-blazor-server
+#   project: apps/abpTemp.Blazor.Server/abpTemp.Blazor.Server.csproj
+#   bindings:
+#     - protocol: https
+#       port: 5001
