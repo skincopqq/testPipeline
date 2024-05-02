@@ -19,6 +19,7 @@ namespace abpTemp.Administration
             var flag = context.Request.Headers.TryGetValue("Authorization", out var auth);
             if (flag)
             {
+                dasd
                 Console.WriteLine(auth);
             }
             else
