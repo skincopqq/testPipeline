@@ -1,13 +1,13 @@
 node {
-  stage('SCM') {
+    stage('SCM') {
     checkout scm
-  }
-  stage('SonarQube Analysis') {
+    }
+    stage('SonarQube Analysis') {
     def scannerHome = tool 'SonarScanner for MSBuild'
     withSonarQubeEnv() {
-      sh "dotnet ${scannerHome}/SonarScanner.MSBuild.dll begin /k:\"testPipeline\""
-      sh "dotnet build"
-      sh "dotnet ${scannerHome}/SonarScanner.MSBuild.dll end"
+        sh "/var/jenkins_home/tools/io.jenkins.plugins.dotnet.DotNetSDK/.NET_8/dotnet ${scannerHome}/SonarScanner.MSBuild.dll begin /k:\"testPipeline\""
+        sh "/var/jenkins_home/tools/io.jenkins.plugins.dotnet.DotNetSDK/.NET_8/dotnet build"
+        sh "/var/jenkins_home/tools/io.jenkins.plugins.dotnet.DotNetSDK/.NET_8/dotnet ${scannerHome}/SonarScanner.MSBuild.dll end"
     }
   }
 }
